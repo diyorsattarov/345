@@ -1,0 +1,10 @@
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header.css */
+.dark-navbar {
+    background-color: #15202b;
+    color: #ffffff;
+}
