@@ -8,3 +8,22 @@
     background-color: #15202b;
     color: #ffffff;
 }
+
+.navigation-bar {
+    /* Your other styles here */
+  }
+  
+  .nav-list {
+    display: flex; /* Make the navigation links run horizontally */
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px; /* Adjust the spacing between navigation items */
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 20; /* Remove margin for the last navigation item */
+  }
+  
