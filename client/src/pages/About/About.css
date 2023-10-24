@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This sets the container to the full viewport height */
+  }
+  
+  .content {
+    text-align: center; /* Center the text within the content div */
+  }
+  
+  /* Add any additional styling you need here */
+  
