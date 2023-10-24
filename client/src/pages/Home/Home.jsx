@@ -20,6 +20,10 @@ function Home({ darkMode, toggleDarkMode }) {
 
           <TabPanel>
             <Table />
+            <Table />
+            <Table />
+            <Table />
+            <Table />
           </TabPanel>
 
           <TabPanel>

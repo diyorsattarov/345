@@ -1,6 +1,7 @@
 import './App.css';
 import { Flowbite } from 'flowbite-react';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import React, { useState, useEffect } from 'react';
 import {
   BrowserRouter,
@@ -40,6 +41,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       </Flowbite>
     </BrowserRouter>
   );

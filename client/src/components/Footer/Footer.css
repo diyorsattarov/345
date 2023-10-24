@@ -1,0 +1,18 @@
+/* Footer.css */
+.footer {
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    z-index: 1; /* Add z-index to ensure the footer is above the content */
+}
+
+.copyright {
+    color: var(--text-color, #333); /* Default text color with fallback */
+    font-size: 14px;
+    margin: 0;
+}
+
+.dark .copyright {
+    color: #ffffff; /* Text color in dark mode */
+}

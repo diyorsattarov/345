@@ -1,0 +1,21 @@
+/* Table.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Center the table within its container */
+  table {
+    margin: 0 auto;
+  }
+  
+  /* Center the text within table cells */
+  th, td {
+    text-align: center;
+  }
