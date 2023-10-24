@@ -16,7 +16,6 @@ function Header({ darkMode, toggleDarkMode }) {
 function NavigationBar({ darkMode }) {
   return (
     <nav className={`navigation-bar ${darkMode ? 'dark' : ''}`}>
-      {/* Add your navigation links here */}
       <ul className="nav-list">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>

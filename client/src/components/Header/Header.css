@@ -8,10 +8,6 @@
     background-color: #15202b;
     color: #ffffff;
 }
-
-.navigation-bar {
-    /* Your other styles here */
-  }
   
   .nav-list {
     display: flex; /* Make the navigation links run horizontally */
